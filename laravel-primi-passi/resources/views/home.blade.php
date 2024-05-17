@@ -16,6 +16,6 @@
         </style>
     </head>
     <body>
-      <h1>Hello {{ $name }} {{ $surname }}!</h1>
+      <h1>Hello {{ $user ['name'] }} {{ $user ['surname'] }}!</h1>
     </body>
 </html>
